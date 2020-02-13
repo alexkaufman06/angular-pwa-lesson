@@ -73,3 +73,5 @@ jobs:
     - name: Test
       run: npm run test
 ```
+* Set your git config `user.name` and `user.email` to your GitHub account information
+* Update your `karma.conf.js` file per the Nov 9, 2017 comment on this GitHub [issue](https://github.com/angular/angular-cli/issues/2013)
