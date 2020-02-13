@@ -43,3 +43,33 @@ npm run start
 * Test-driven development is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the code is improved so that the tests pass.
 * The `app.component.spec.ts` file houses our test cases and is a implementation of the requirements. Change the title of the application in the test case to a title of your choice.
 * Update `app.component.ts` and `app.component.html` files to make tests pass
+
+## Add GitHub Workflow and Upload to Repository
+
+* Create `.github/workflows` folders
+* Create `nodejs.yml` file in `workflows` folder
+
+```
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 12.8
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.8
+    - name: Install dependencies
+      run: npm install
+    - name: Lint
+      run: npm run lint
+    - name: Build
+      run: npm run build
+    - name: Test
+      run: npm run test
+```
