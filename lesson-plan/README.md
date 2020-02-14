@@ -73,8 +73,9 @@ jobs:
     - name: Test
       run: npm run test:ci
 ```
-* Set your git config `user.name` and `user.email` to your GitHub account information
 * Update your `karma.conf.js` file per the Nov 9, 2017 comment on this GitHub [issue](https://github.com/angular/angular-cli/issues/2013)
   * We're doing this so tests can run in the GitHub Workflow we created above
   * Add this script to `package.json` for exiting the CI build
     * `"test:ci": "ng test --browsers='ChromeHeadless' --watch=false"`
+* Set your git config `user.name` and `user.email` to your GitHub account information
+* Commit to GitHub repoistory
