@@ -1,6 +1,6 @@
 # Angular PWA Lesson Plan
 
-This lesson plan for teaching the DAT Academy how to build and deploy a Progressive Web Application (PWA) with GitHub Actions for Continuous Integration and Continuous Delivery (CI/CD) while following some Test Driven Development (TDD) practices.
+This lesson plan is for teaching the DAT Academy how to build and deploy a Progressive Web Application (PWA) with GitHub Actions and Pages for Continuous Integration and Continuous Delivery (CI/CD) while following some Test Driven Development (TDD) practices.
 
 ## What You Need
 
@@ -46,6 +46,7 @@ npm run start
 
 ## Add CI with GitHub Workflow
 
+* Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. The CI process is comprised of automatic tools that assert the new code's correctness before integration.
 * Create `.github/workflows` folders
 * Create `nodejs.yml` file in `workflows` folder
 
@@ -78,4 +79,4 @@ jobs:
   * Add this script to `package.json` for exiting the CI build
     * `"test:ci": "ng test --browsers='ChromeHeadless' --watch=false"`
 * Set your git config `user.name` and `user.email` to your GitHub account information
-* Commit to GitHub repoistory
+* Commit to GitHub repository and watch the GitHub Workflow do its magic
