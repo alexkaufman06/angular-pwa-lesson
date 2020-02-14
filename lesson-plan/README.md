@@ -27,7 +27,7 @@ ng new myAppName
   * This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies
   * Add `--open` to the start script
 
-Run your test suite
+Run your test suite (automatically runs in watch mode)
 ```
 npm run test
 ```
