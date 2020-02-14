@@ -44,7 +44,7 @@ npm run start
 * The `app.component.spec.ts` file houses our test cases and is a implementation of the requirements. Change the title of the application in the test case to a title of your choice.
 * Update `app.component.ts` and `app.component.html` files to make tests pass
 
-## Add GitHub Workflow and Upload to Repository
+## Add CI with GitHub Workflow
 
 * Create `.github/workflows` folders
 * Create `nodejs.yml` file in `workflows` folder
