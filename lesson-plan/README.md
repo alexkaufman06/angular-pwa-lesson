@@ -115,4 +115,4 @@ npm run build
 * Commit your changes
 * Update your GitHub repository's settings
   * There is a setting for GitHub Pages which should have a `Source` set to `master branch /docs folder`
-
+* You should soon see your app deployed
