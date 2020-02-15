@@ -9,6 +9,10 @@ This lesson plan is for teaching the DAT Academy how to build and deploy a Progr
 * Node JS and NPM installed
 * GitHub account and git installed on your machine
 
+## What is a PWA?
+
+* TODO
+
 ## Set up
 
 Install the Angular CLI in the terminal if needed
@@ -78,5 +82,37 @@ jobs:
   * We're doing this so tests can run in the GitHub Workflow we created above
   * Add this script to `package.json` for exiting the CI build
     * `"test:ci": "ng test --browsers='ChromeHeadless' --watch=false"`
+    * Update the test script to: `ng test --browsers='ChromeHeadless'` (personal preference)
 * Set your git config `user.name` and `user.email` to your GitHub account information
 * Commit to GitHub repository and watch the GitHub Workflow do its magic
+
+## Make it a PWA
+
+* Add a service worker (more info on that [here](https://angular.io/guide/service-worker-getting-started))
+* Run this in termimal to generate JS needed to load a service worker into app.
+```
+ng add @angular/pwa
+```
+* The new `ngsw-config.json` file helps you customize behavior of service worker and the worker is there primarily to allow your service worker to work offline. 
+* The new `manifest.webmanifest` file references web icons for the install button of the app. It also has other settings on how the app will appear natively.
+* Update the webmanifest with the name of your repoistory:
+```
+  "scope": "/yourAppName/",
+  "start_url": "/yourAppName/",
+```
+* Update the outputPath of `angular.json`:
+```
+"outputPath": "dist/"
+```
+* Update your build script in the `package.json`:
+```
+"build": "ng build --prod --output-path docs --base-href /Quizatron/ && cp docs/index.html docs/404.html",
+```
+* Now run:
+```
+npm run build
+```
+* Commit your changes
+* Update your GitHub repository's settings
+  * There is a setting for GitHub Pages which should have a `Source` set to `master branch /docs folder`
+

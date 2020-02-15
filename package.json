@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build",
+    "build": "ng build --prod --output-path docs --base-href /Quizatron/ && cp docs/index.html docs/404.html",
     "test": "ng test --browsers='ChromeHeadless'",
     "test:ci": "ng test --browsers='ChromeHeadless' --watch=false",
     "lint": "ng lint",
@@ -19,7 +19,9 @@
     "@angular/forms": "~8.0.1",
     "@angular/platform-browser": "~8.0.1",
     "@angular/platform-browser-dynamic": "~8.0.1",
+    "@angular/pwa": "^0.900.2",
     "@angular/router": "~8.0.1",
+    "@angular/service-worker": "~8.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
