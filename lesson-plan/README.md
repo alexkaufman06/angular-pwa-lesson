@@ -8,6 +8,7 @@ This lesson plan is for teaching the DAT Academy how to build and deploy a Progr
   * Angular Language Service extension (provides syntax highlighting for VS Code)
 * Node JS and NPM installed
 * GitHub account and git installed on your machine
+* Google Chrome
 
 ## What is a PWA?
 
