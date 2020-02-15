@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build --prod --output-path docs --base-href /Quizatron/ && cp docs/index.html docs/404.html",
+    "build": "ng build --prod --output-path docs --base-href /angular-pwa-lesson/ && cp docs/index.html docs/404.html",
     "test": "ng test --browsers='ChromeHeadless'",
     "test:ci": "ng test --browsers='ChromeHeadless' --watch=false",
     "lint": "ng lint",

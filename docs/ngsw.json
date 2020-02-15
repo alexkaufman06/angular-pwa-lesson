@@ -1,22 +1,22 @@
 {
   "configVersion": 1,
-  "timestamp": 1581726263719,
-  "index": "/Quizatron/index.html",
+  "timestamp": 1581726820968,
+  "index": "/angular-pwa-lesson/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/Quizatron/favicon.ico",
-        "/Quizatron/index.html",
-        "/Quizatron/main-es2015.972d95ab025910d8a572.js",
-        "/Quizatron/main-es5.972d95ab025910d8a572.js",
-        "/Quizatron/polyfills-es2015.5b10b8fd823b6392f1fd.js",
-        "/Quizatron/polyfills-es5.8e50a9832860f7cf804a.js",
-        "/Quizatron/runtime-es2015.c5fa8325f89fc516600b.js",
-        "/Quizatron/runtime-es5.c5fa8325f89fc516600b.js",
-        "/Quizatron/styles.09e2c710755c8867a460.css"
+        "/angular-pwa-lesson/favicon.ico",
+        "/angular-pwa-lesson/index.html",
+        "/angular-pwa-lesson/main-es2015.972d95ab025910d8a572.js",
+        "/angular-pwa-lesson/main-es5.972d95ab025910d8a572.js",
+        "/angular-pwa-lesson/polyfills-es2015.5b10b8fd823b6392f1fd.js",
+        "/angular-pwa-lesson/polyfills-es5.8e50a9832860f7cf804a.js",
+        "/angular-pwa-lesson/runtime-es2015.c5fa8325f89fc516600b.js",
+        "/angular-pwa-lesson/runtime-es5.c5fa8325f89fc516600b.js",
+        "/angular-pwa-lesson/styles.09e2c710755c8867a460.css"
       ],
       "patterns": []
     },
@@ -25,37 +25,37 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/Quizatron/assets/icons/icon-128x128.png",
-        "/Quizatron/assets/icons/icon-144x144.png",
-        "/Quizatron/assets/icons/icon-152x152.png",
-        "/Quizatron/assets/icons/icon-192x192.png",
-        "/Quizatron/assets/icons/icon-384x384.png",
-        "/Quizatron/assets/icons/icon-512x512.png",
-        "/Quizatron/assets/icons/icon-72x72.png",
-        "/Quizatron/assets/icons/icon-96x96.png"
+        "/angular-pwa-lesson/assets/icons/icon-128x128.png",
+        "/angular-pwa-lesson/assets/icons/icon-144x144.png",
+        "/angular-pwa-lesson/assets/icons/icon-152x152.png",
+        "/angular-pwa-lesson/assets/icons/icon-192x192.png",
+        "/angular-pwa-lesson/assets/icons/icon-384x384.png",
+        "/angular-pwa-lesson/assets/icons/icon-512x512.png",
+        "/angular-pwa-lesson/assets/icons/icon-72x72.png",
+        "/angular-pwa-lesson/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/Quizatron/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/Quizatron/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/Quizatron/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/Quizatron/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/Quizatron/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/Quizatron/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/Quizatron/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/Quizatron/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/Quizatron/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/Quizatron/index.html": "425b348030246126618797e4130add4352f6ebc7",
-    "/Quizatron/main-es2015.972d95ab025910d8a572.js": "fa0ccdcf7180660a881dab7a182377887ea91c03",
-    "/Quizatron/main-es5.972d95ab025910d8a572.js": "7341c087738829a88ae9276c849d9b11af971e27",
-    "/Quizatron/polyfills-es2015.5b10b8fd823b6392f1fd.js": "9abfe15f17820a646e3d51c420908d9f8f7b69b8",
-    "/Quizatron/polyfills-es5.8e50a9832860f7cf804a.js": "a9abcb7b9e74feed315773004b623373fdf3fada",
-    "/Quizatron/runtime-es2015.c5fa8325f89fc516600b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/Quizatron/runtime-es5.c5fa8325f89fc516600b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/Quizatron/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/angular-pwa-lesson/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/angular-pwa-lesson/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/angular-pwa-lesson/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/angular-pwa-lesson/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/angular-pwa-lesson/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/angular-pwa-lesson/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/angular-pwa-lesson/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/angular-pwa-lesson/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/angular-pwa-lesson/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/angular-pwa-lesson/index.html": "00bf48a3b368459b88365256c0f848647a9a4eca",
+    "/angular-pwa-lesson/main-es2015.972d95ab025910d8a572.js": "fa0ccdcf7180660a881dab7a182377887ea91c03",
+    "/angular-pwa-lesson/main-es5.972d95ab025910d8a572.js": "7341c087738829a88ae9276c849d9b11af971e27",
+    "/angular-pwa-lesson/polyfills-es2015.5b10b8fd823b6392f1fd.js": "9abfe15f17820a646e3d51c420908d9f8f7b69b8",
+    "/angular-pwa-lesson/polyfills-es5.8e50a9832860f7cf804a.js": "a9abcb7b9e74feed315773004b623373fdf3fada",
+    "/angular-pwa-lesson/runtime-es2015.c5fa8325f89fc516600b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/angular-pwa-lesson/runtime-es5.c5fa8325f89fc516600b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/angular-pwa-lesson/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
