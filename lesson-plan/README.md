@@ -11,7 +11,12 @@ This lesson plan is for teaching the DAT Academy how to build and deploy a Progr
 
 ## What is a PWA?
 
-* TODO
+* Progressive Web Apps are user experiences that have the reach of the web, and are:
+  * Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.
+  * Fast - Respond quickly to user interactions with silky smooth animations and no janky scrolling.
+  * Engaging - Feel like a natural app on the device, with an immersive user experience.
+* This new level of quality allows Progressive Web Apps to earn a place on the user's home screen and be downloaded on any device.
+* For more information, see [Google's developer documentation](https://developers.google.com/web/progressive-web-apps)
 
 ## Set up
 
@@ -86,7 +91,7 @@ jobs:
 * Set your git config `user.name` and `user.email` to your GitHub account information
 * Commit to GitHub repository and watch the GitHub Workflow do its magic
 
-## Make it a PWA
+## Make it a PWA and Deploy it!
 
 * Add a service worker (more info on that [here](https://angular.io/guide/service-worker-getting-started))
 * Run this in termimal to generate JS needed to load a service worker into app.
@@ -106,7 +111,7 @@ ng add @angular/pwa
 ```
 * Update your build script in the `package.json`:
 ```
-"build": "ng build --prod --output-path docs --base-href /Quizatron/ && cp docs/index.html docs/404.html",
+"build": "ng build --prod --output-path docs --base-href /your-repository-name/ && cp docs/index.html docs/404.html",
 ```
 * Now run:
 ```
@@ -116,3 +121,6 @@ npm run build
 * Update your GitHub repository's settings
   * There is a setting for GitHub Pages which should have a `Source` set to `master branch /docs folder`
 * You should soon see your app deployed
+* Open the JS console in Chrome
+  * Click on the audit tab and generate a report
+* If all goes well, you should pass the PWA checks and see that your app is downloadable via the plus icon to the right of the URL
