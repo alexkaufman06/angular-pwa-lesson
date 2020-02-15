@@ -5,7 +5,7 @@ This lesson plan is for teaching the DAT Academy how to build and deploy a Progr
 ## What You Need
 
 * VS Code or IDE of your choice
-  * Angular Language Service extension (provides syntax highlighting)
+  * Angular Language Service extension (provides syntax highlighting for VS Code)
 * Node JS and NPM installed
 * GitHub account and git installed on your machine
 
