@@ -55,9 +55,10 @@ npm run start
 * Update `app.component.ts` and `app.component.html` files to make tests pass
   * This is a very basic example, but the main idea here is write your test code for what you want the application to do. Then make sure the test fails as expected and write the necessary application code to make the test pass.
 
-## Add CI with GitHub Workflow
+## Add CI/CD with GitHub Workflow
 
 * Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. The CI process is comprised of automatic tools that assert the new code's correctness before integration.
+* Continuous delivery (CD) is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when releasing the software, doing so manually. It aims at building, testing, and releasing software with greater speed and frequency.
 * Create `.github/workflows` folders
 * Create `nodejs.yml` file in `workflows` folder
 
