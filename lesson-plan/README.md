@@ -51,8 +51,9 @@ npm run start
 ## TDD Intro
 
 * Test-driven development is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the code is improved so that the tests pass.
-* The `app.component.spec.ts` file houses our test cases and is a implementation of the requirements. Change the title of the application in the test case to a title of your choice.
+* The `app.component.spec.ts` file houses our test cases and is a implementation of the requirements. Change the title of the application in the test case to a title of your choice and watch the test fail.
 * Update `app.component.ts` and `app.component.html` files to make tests pass
+  * This is a very basic example, but the main idea here is write your test code for what you want the application to do. Then make sure the test fails as expected and write the necessary application code to make the test pass.
 
 ## Add CI with GitHub Workflow
 
@@ -84,13 +85,13 @@ jobs:
     - name: Test
       run: npm run test:ci
 ```
-* Update your `karma.conf.js` file per the Nov 9, 2017 comment on this GitHub [issue](https://github.com/angular/angular-cli/issues/2013)
+* Update your npm scripts to run in headless mode
   * We're doing this so tests can run in the GitHub Workflow we created above
   * Add this script to `package.json` for exiting the CI build
     * `"test:ci": "ng test --browsers='ChromeHeadless' --watch=false"`
     * Update the test script to: `ng test --browsers='ChromeHeadless'` (personal preference)
 * Set your git config `user.name` and `user.email` to your GitHub account information
-* Commit to GitHub repository and watch the GitHub Workflow do its magic
+* Commit to GitHub repository and watch the GitHub Workflow do its magic!
 
 ## Make it a PWA and Deploy it!
 

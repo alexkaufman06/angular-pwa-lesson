@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1581727264053,
+  "timestamp": 1582676363382,
   "index": "/angular-pwa-lesson/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/angular-pwa-lesson/favicon.ico",
         "/angular-pwa-lesson/index.html",
-        "/angular-pwa-lesson/main-es2015.972d95ab025910d8a572.js",
-        "/angular-pwa-lesson/main-es5.972d95ab025910d8a572.js",
+        "/angular-pwa-lesson/main-es2015.f2dd539f3ba8b9b45595.js",
+        "/angular-pwa-lesson/main-es5.f2dd539f3ba8b9b45595.js",
         "/angular-pwa-lesson/polyfills-es2015.5b10b8fd823b6392f1fd.js",
         "/angular-pwa-lesson/polyfills-es5.8e50a9832860f7cf804a.js",
         "/angular-pwa-lesson/runtime-es2015.c5fa8325f89fc516600b.js",
@@ -48,9 +48,9 @@
     "/angular-pwa-lesson/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/angular-pwa-lesson/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/angular-pwa-lesson/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular-pwa-lesson/index.html": "00bf48a3b368459b88365256c0f848647a9a4eca",
-    "/angular-pwa-lesson/main-es2015.972d95ab025910d8a572.js": "fa0ccdcf7180660a881dab7a182377887ea91c03",
-    "/angular-pwa-lesson/main-es5.972d95ab025910d8a572.js": "7341c087738829a88ae9276c849d9b11af971e27",
+    "/angular-pwa-lesson/index.html": "135643ec895b2dd7da9371d720afdb0fcdac30c8",
+    "/angular-pwa-lesson/main-es2015.f2dd539f3ba8b9b45595.js": "4d02375553f6e6888656526c902c86470c0bd499",
+    "/angular-pwa-lesson/main-es5.f2dd539f3ba8b9b45595.js": "e3b2a51f1c84181a345dee76da79adc632af2c41",
     "/angular-pwa-lesson/polyfills-es2015.5b10b8fd823b6392f1fd.js": "9abfe15f17820a646e3d51c420908d9f8f7b69b8",
     "/angular-pwa-lesson/polyfills-es5.8e50a9832860f7cf804a.js": "a9abcb7b9e74feed315773004b623373fdf3fada",
     "/angular-pwa-lesson/runtime-es2015.c5fa8325f89fc516600b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
