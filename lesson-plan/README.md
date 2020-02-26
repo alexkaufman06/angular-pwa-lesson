@@ -107,13 +107,15 @@ ng add @angular/pwa
   "scope": "/yourAppName/",
   "start_url": "/yourAppName/",
 ```
-* Update the outputPath of `angular.json`:
+* Update the baseHref and outputPath of `angular.json`:
+
 ```
-"outputPath": "dist/"
+"baseHref": "/your-repository-name/",
+"outputPath": "docs/",
 ```
 * Update your build script in the `package.json`:
 ```
-"build": "ng build --prod --output-path docs --base-href /your-repository-name/ && cp docs/index.html docs/404.html",
+"build": "ng build --prod && cp docs/index.html docs/404.html",
 ```
 * Now run:
 ```
