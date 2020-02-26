@@ -126,3 +126,13 @@ npm run build
 * Open the JS console in Chrome
   * Click on the audit tab and generate a report
 * If all goes well, you should pass the PWA checks and see that your app is downloadable via the plus icon to the right of the URL
+
+## Now What!?
+
+* You now have a template for building an application of your choice capable of being run on any device! 
+* If you're new to Angular, learn more check out some of their documentation at [angular.io](https://angular.io/)
+* While working on my own PWA with this process, here are some my good/bad takeaways:
+
+| The Good | The Bad |
+|---       |---      |
+| <ul><li>Downloadable on any device</li> <li>Completely free</li> <li>Good option for making a quick POC</li> <li>Performance is great</li> <li>One repo for any device</li></ul> | <ul><li>Native application is dependent on the browser it is download with</li> <ul><li>Safari for iPhones and Chrome for Android</li></ul> <li>I've seen the download fail occasionally on iPhone</li> <li>Sound on Safari/iPhone is challenging due to autoPlay being false</li> <li>Updates don't always install gracefully on iPhone</li></ul> | 
