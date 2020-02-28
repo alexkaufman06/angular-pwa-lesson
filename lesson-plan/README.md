@@ -21,13 +21,13 @@ This lesson plan is for teaching the DAT Academy how to build and deploy a Progr
 
 ## Set up
 
-1) Install the Angular CLI in the terminal if needed
+**1) Install the Angular CLI in the terminal if needed**
 ```
 npm install -g @angular/cli
 ```
 * This CLI (command-line interface) allows us to initialize, develop, scaffold, and maintain Angular applications.
 
-2) Generate a new Angular app
+**2) Generate a new Angular app**
 ```
 ng new myAppName
 ```
@@ -38,12 +38,12 @@ ng new myAppName
   * This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies
   * Add `--open` to the start script
 
-3) Run your test suite (automatically runs in watch mode)
+**3) Run your test suite (automatically runs in watch mode)**
 ```
 npm run test
 ```
 
-4) Start the application
+**4) Start the application**
 ```
 npm run start
 ```
