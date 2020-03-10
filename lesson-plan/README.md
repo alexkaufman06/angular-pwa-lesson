@@ -9,6 +9,7 @@ This lesson plan is for teaching the DAT Academy how to build and deploy a Progr
 * Node JS and NPM installed
 * GitHub account and git installed on your machine
 * Google Chrome
+* Knowledge of git, HTML, CSS and JavaScript. (This is not necessarily needed for every step of the way, but the more development experience you have the better)
 
 ## What is a PWA?
 
@@ -25,18 +26,21 @@ This lesson plan is for teaching the DAT Academy how to build and deploy a Progr
 ```
 npm install -g @angular/cli
 ```
-* This CLI (command-line interface) allows us to initialize, develop, scaffold, and maintain Angular applications.
+* **Why?:** This CLI (command-line interface) allows us to initialize, develop, scaffold, and maintain Angular applications.
 
 **2) Generate a new Angular app**
 ```
 ng new myAppName
 ```
-
+* **Why?:** The Angular CLI generates an new application for us with testing built in. (You will be prompted for information about features to include in the initial app project)
 * Say yes to Angular routing
+  * **Why?:** We chose to add routing because it's useful when making SPAs (Single Page Applications) since we can route different URLs for different content in the application. Thus, the application loads once and requires no reload when viewing various URLs/content. The end result is a better user experience for people using your application.
 * Choose SCSS for your stylesheet
-* Open your generated `package.json` file
+  * **Why?:** SCSS contains all the features of [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and contains more features that are not present in CSS which makes it a good choice for developers to use it. SCSS is full of advanced features. SCSS offers variables, you can shorten your code by using variables.
+* Open your generated `package.json` file with your IDE of choice
   * This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies
   * Add `--open` to the start script
+    * **Why?:** This will automatically open the URL in the default browser when we start the application in step 4.
 
 **3) Run your test suite (automatically runs in watch mode)**
 ```
