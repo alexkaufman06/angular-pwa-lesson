@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586836694670,
+  "timestamp": 1586838686441,
   "index": "/angular-pwa-lesson/index.html",
   "assetGroups": [
     {
@@ -84,7 +84,7 @@
     "/angular-pwa-lesson/assets/icons/manifest-icon-192.png": "1512b1e36a5ce37d37ccc635015b7cadbd329f59",
     "/angular-pwa-lesson/assets/icons/manifest-icon-512.png": "70cdae01fe06fdffe35197ea2caaf496d7a64a51",
     "/angular-pwa-lesson/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular-pwa-lesson/index.html": "6a728f5924dedc0da64ffd2a81f3334172b5bb4c",
+    "/angular-pwa-lesson/index.html": "e6b1bbfa81cf16280a8595542abf9fdfe304ec71",
     "/angular-pwa-lesson/main-es2015.f2dd539f3ba8b9b45595.js": "4d02375553f6e6888656526c902c86470c0bd499",
     "/angular-pwa-lesson/main-es5.f2dd539f3ba8b9b45595.js": "e3b2a51f1c84181a345dee76da79adc632af2c41",
     "/angular-pwa-lesson/polyfills-es2015.5b10b8fd823b6392f1fd.js": "9abfe15f17820a646e3d51c420908d9f8f7b69b8",
