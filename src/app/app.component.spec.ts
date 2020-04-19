@@ -41,6 +41,6 @@ describe('AppComponent', () => {
 
   it('should render the the app-heroes tag', () => {
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('app-heroes').textContent).toEqual('Windstorm');
+    expect(compiled.querySelector('app-heroes')).toBeTruthy();
   });
 });
